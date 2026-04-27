@@ -1,0 +1,54 @@
+[2026-04-22 12:13:58,623: INFO: main: welcome to DLOPS Project Logs]
+
+
+
+
+
+[2026-04-23 11:23:05,541: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-23 11:25:40,429: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-23 11:25:40,439: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-23 11:25:40,440: INFO: common: created directory at: artifacts]
+[2026-04-23 11:25:40,443: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-04-23 11:25:41,368: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 66E4:44E65:5DC294:733FAC:69E9AA4E
+Accept-Ranges: bytes
+Date: Thu, 23 Apr 2026 05:55:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del-vibw2260039-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1776923742.652761,VS0,VE314
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e9bee29e5b67cccd8e7f7ba010ae0a5fb4e379dd
+Expires: Thu, 23 Apr 2026 06:00:41 GMT
+Source-Age: 0
+
+]
+[2026-04-24 10:53:36,736: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2026-04-24 10:53:36,752: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-24 10:53:36,768: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-24 10:53:36,770: INFO: common: created directory at: artifacts]
+[2026-04-24 10:53:36,770: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-04-24 10:53:36,770: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2026-04-24 10:53:37,144: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-04-27 11:03:58,749: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-27 11:03:58,770: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-27 11:03:58,775: INFO: common: created directory at: artifacts]
+[2026-04-27 11:03:58,778: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-04-27 11:04:04,919: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-04-27 11:04:05,147: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-04-27 11:04:05,264: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
