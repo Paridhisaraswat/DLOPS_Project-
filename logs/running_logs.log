@@ -114,3 +114,8 @@ x==========x]
 [2026-04-28 11:10:43,933: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
 
 x==========x]
+[2026-04-30 10:51:30,893: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-30 10:51:30,909: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-30 10:51:30,912: INFO: common: created directory at: artifacts]
+[2026-04-30 10:51:30,913: INFO: common: created directory at: artifacts\prepare_callbacks]
+[2026-04-30 10:51:30,915: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_root_log_dir]
